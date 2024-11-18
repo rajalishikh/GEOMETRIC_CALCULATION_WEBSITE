@@ -154,20 +154,110 @@
               </div>
             </div>
           </div>
+          <!-- parallelogram start end-->
+
+          <!-- rhombus.png card start 4 -->
 
           <div class="card bg-base-100 w-80 shadow-xl">
             <figure class="px-10 pt-10">
+              <img src="./image/rhombus.png" alt="rhombus" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Rhombus</h2>
+              <p>Area(A)=0.5 X d1 Xd2</p>
+              <p>Area :<span id="rhombus_area">0</span>cm<sup>2</sup></p>
+              <!-- input section  -->
+              <div>
+                <input
+                  id="input-4.1"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="d1"
+                />
+                <span>cm</span>
+                <input
+                  id="input4.2"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="d2"
+                />
+                <span>cm</span>
+              </div>
+              <div class="card-actions w-full">
+                <button onclick="calculate4()" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="card bg-base-100 w-80 shadow-xl">
+            <figure class="px-10 pt-10">
               <img
-                src="./image/rectangle.png"
-                alt="rectangle"
+                src="./image/pentagon.png"
+                alt="rhombus"
                 class="rounded-xl"
               />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+              <h2 class="card-title">pentagon</h2>
+              <p>Area (A) =0.5 X P X b</p>
+              <p>Area :<span id="pentagon_area">0</span>cm<sup>2</sup></p>
+              <!-- input section  -->
+              <div>
+                <input
+                  id="input-5.1"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="b"
+                />
+                <span>cm</span>
+                <input
+                  id="input5.2"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="h"
+                />
+                <span>cm</span>
+              </div>
+              <div class="card-actions w-full">
+                <button onclick="calculate4()" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="card bg-base-100 w-80 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./image/ellipse.png" alt="rhombus" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Ellipse</h2>
+              <p>Area(A)=πab</p>
+              <p>Area :<span id="Ellipse_area">0</span>cm<sup>2</sup></p>
+              <!-- input section  -->
+              <div>
+                <input
+                  id="input-6.1"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="b"
+                />
+                <span>cm</span>
+                <input
+                  id="input6.2"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="h"
+                />
+                <span>cm</span>
+              </div>
+              <div class="card-actions w-full">
+                <button onclick="calculate5()" class="btn btn-primary w-full">
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
@@ -188,5 +278,8 @@
     <!-- javaScript section  -->
     <script src="./javasCRIPT/P1.js"></script>
     <script src="./javasCRIPT/p2.js"></script>
+    <script src="./javasCRIPT/p3.js"></script>
+    <script src="./javasCRIPT/p4.js"></script>
+    <script src="./javasCRIPT/p5.js"></script>
   </body>
 </html>
