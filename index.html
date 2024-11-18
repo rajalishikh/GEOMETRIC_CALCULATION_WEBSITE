@@ -88,18 +88,18 @@
               <h2 class="card-title">Rectangle</h2>
               <p>Area (A) = w X I</p>
               <!-- input field -->
-              <p>Area :<span id="triangle_area">0</span>cm<sub>2</sub></p>
+              <p>Area :<span id="rectangle_area">0</span>cm<sub>2</sub></p>
               <!-- input section  -->
               <div>
                 <input
-                  id="input-1"
+                  id="input-2.1"
                   type="text"
                   class="w-24 rounded"
                   placeholder="w"
                 />
                 <span>cm</span>
                 <input
-                  id="input2"
+                  id="input2.2"
                   type="text"
                   class="w-24 rounded"
                   placeholder="l"
@@ -107,7 +107,9 @@
                 <span>cm</span>
               </div>
               <div class="card-actions w-full">
-                <button class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculate2()" class="btn btn-primary w-full">
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
@@ -128,6 +130,7 @@
               </div>
             </div>
           </div>
+          <!-- rectangle card end 2 -->
 
           <div class="card bg-base-100 w-80 shadow-xl">
             <figure class="px-10 pt-10">
