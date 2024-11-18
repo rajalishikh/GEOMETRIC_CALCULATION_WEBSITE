@@ -47,7 +47,7 @@
             <div class="card-body items-center text-center">
               <h2 class="card-title">Triangle</h2>
               <p>Area (A) =0.5XbXh</p>
-              <p>Area :<span id="triangle_area">0</span>cm<sub>2</sub></p>
+              <p>Area :<span id="triangle_area">0</span>cm<sup>2</sup></p>
               <!-- input section  -->
               <div>
                 <input
@@ -88,7 +88,7 @@
               <h2 class="card-title">Rectangle</h2>
               <p>Area (A) = w X I</p>
               <!-- input field -->
-              <p>Area :<span id="rectangle_area">0</span>cm<sub>2</sub></p>
+              <p>Area :<span id="rectangle_area">0</span>cm<sup>2</sup></p>
               <!-- input section  -->
               <div>
                 <input
@@ -113,24 +113,47 @@
               </div>
             </div>
           </div>
-          <!-- rectangle card start 2 -->
+          <!-- rectangle card end 2 -->
+
+          <!-- parallelogram start 3 -->
+
           <div class="card bg-base-100 w-80 shadow-xl">
             <figure class="px-10 pt-10">
               <img
-                src="./image/rectangle.png"
-                alt="rectangle"
+                src="./image/parallelogram.png"
+                alt="parallelogram"
                 class="rounded-xl"
               />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+              <h2 class="card-title">parallelogram</h2>
+              <p>Area (A) = b X h</p>
+              <p>Area :<span id="parallelogram_area">0</span>cm<sup>2</sup></p>
+              <!-- input section  -->
+              <div>
+                <input
+                  id="input-3.1"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="b"
+                />
+                <span>cm</span>
+                <input
+                  id="input3.2"
+                  type="text"
+                  class="w-24 rounded"
+                  placeholder="h"
+                />
+                <span>cm</span>
+              </div>
+
+              <div class="card-actions w-full">
+                <button onclick="calculation3()" class="btn btn-primary w-full">
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
-          <!-- rectangle card end 2 -->
 
           <div class="card bg-base-100 w-80 shadow-xl">
             <figure class="px-10 pt-10">
@@ -155,6 +178,7 @@
         <!-- calculation card start  -->
         <div class="w-96 border border-sky-500">
           <h2 class="text-3xl text-center">Area calculation</h2>
+          <div></div>
           <hr />
         </div>
         <!-- calculation cart  end -->
@@ -163,5 +187,6 @@
 
     <!-- javaScript section  -->
     <script src="./javasCRIPT/P1.js"></script>
+    <script src="./javasCRIPT/p2.js"></script>
   </body>
 </html>
